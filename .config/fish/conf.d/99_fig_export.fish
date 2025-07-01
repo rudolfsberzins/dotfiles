@@ -1,0 +1,1 @@
+/Users/rudolfsberzins/fig-export/dotfiles/dotfile.fish
