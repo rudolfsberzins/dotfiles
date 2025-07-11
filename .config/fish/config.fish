@@ -27,3 +27,7 @@ abbr --add -g dbx /Users/rudolfsberzins/Development/Databricks_Platform/
 
 #.cfg dotfile store alias
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+# Added by OrbStack: command-line tools and integration
+# This won't be added again if you remove it.
+source ~/.orbstack/shell/init2.fish 2>/dev/null || :
