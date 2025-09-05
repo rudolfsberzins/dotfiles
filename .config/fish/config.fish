@@ -24,10 +24,9 @@ end
 
 # Shortcut to Databricks_Platform repos
 abbr --add -g dbx /Users/rudolfsberzins/Development/Databricks_Platform/
+abbr --add -g dev /Users/rudolfsberzins/Development/
+abbr --add -g dp /Users/rudolfsberzins/Development/Data_Platform_Project/
 
 #.cfg dotfile store alias
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-
-# Added by OrbStack: command-line tools and integration
-# This won't be added again if you remove it.
-source ~/.orbstack/shell/init2.fish 2>/dev/null || :
+alias activate='eval $(poetry env activate)'
